@@ -11,8 +11,8 @@ const welcome = async () => {
     console.log(`
     ${chalk.bgBlue("HOW TO PLAY")} 
     1. You need to Guess a number between 1 to 100.
-    2. If you guess lower number you will inform, then you can enter another higher number.
-    3. If you guess higher number you will inform, then you can enter lower number.
+    2. If you guess lower number you will be inform, then you can enter another higher number.
+    3. If you guess higher number you will be inform, then you can enter lower number.
     4. ${chalk.bgRed("If you guess correct, Congradulations!")}    
   `);
 };
@@ -40,7 +40,7 @@ do {
                 {
                     type: "input",
                     name: "numberGuess",
-                    message: chalk.greenBright("Please Guess The Number: ")
+                    message: chalk.greenBright("Please Guess The Number: "),
                 },
             ];
             await inquirer.prompt(questions).then(function (answers) {
