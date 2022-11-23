@@ -1,5 +1,5 @@
 {
-  "name": "numgame",
+  "name": "numguessgame",
   "version": "1.0.0",
   "description": "Smart CLI Number Guess Game build with Typescript.",
   "main": "index.js",
